@@ -79,6 +79,25 @@ html,body,[class*="css"]{font-family:'DM Sans',sans-serif;background-color:var(-
 </style>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+<style>
+/* Hide top right toolbar */
+div[data-testid="stToolbar"] {
+    display: none !important;
+}
+
+/* Hide deploy button */
+button[kind="header"] {
+    display: none !important;
+}
+
+/* Hide GitHub / share icons */
+[data-testid="stHeader"] {
+    display: none !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
 
 # =============================
 # DATA LOADING
