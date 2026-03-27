@@ -87,7 +87,7 @@ html,body,[class*="css"]{font-family:'DM Sans',sans-serif;background-color:var(-
 def load_data(_bust=0):
     try:
         df = pd.read_csv(DATASET_PATH)
-        df["DATE"] = pd.to_datetime(df["DATE"])
+        df["DATE"] = pd.to_datetime(df["DATE"].dt.strftime("%d %b %Y"))
         df = df.sort_values("DATE").reset_index(drop=True)
         df = run_pipeline(df)
         df = apply_decision_logic(df)
