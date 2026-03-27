@@ -74,7 +74,7 @@ html,body,[class*="css"]{font-family:'DM Sans',sans-serif;background-color:var(-
 .stTabs [data-baseweb="tab"]{background:transparent!important;color:var(--text-muted)!important;font-family:'DM Sans',sans-serif;font-size:.9rem;padding:.6rem 1.2rem;border-bottom:2px solid transparent;}
 .stTabs [aria-selected="true"]{color:var(--accent-solar)!important;border-bottom-color:var(--accent-solar)!important;}
 [data-testid="stDataFrame"]{border-radius:10px;border:1px solid var(--border)!important;overflow:hidden;}
-#MainMenu,footer,header{visibility:hidden;}
+#MainMenu,footer{visibility:hidden;}
 .stDeployButton{display:none;}
 </style>
 """, unsafe_allow_html=True)
