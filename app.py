@@ -90,11 +90,6 @@ div[data-testid="stToolbar"] {
 button[kind="header"] {
     display: none !important;
 }
-
-/* Hide GitHub / share icons */
-[data-testid="stHeader"] {
-    display: none !important;
-}
 </style>
 """, unsafe_allow_html=True)
 
