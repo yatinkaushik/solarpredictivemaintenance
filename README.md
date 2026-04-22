@@ -205,7 +205,7 @@ This makes it highly effective at detecting anomalies even under changing weathe
 
 ## 📌 Author
 
-**Yatin Kaushik**
+**Yatin Kaushik, Aditya Mishra**
 
 ---
 
